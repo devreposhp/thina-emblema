@@ -1,5 +1,5 @@
 emblemas = [
-    "NÂO APAGUE ESSA LINHA",
+    "",
     "HLV24RAD74",
     "HLV24RAD65",
     "HLV24RAD64",
@@ -172,7 +172,6 @@ function emblema() {
         });
 
         inputDestino.value = "@green@ Começando a entregar os emblemas!";
-
         inputDestino.dispatchEvent(event);
         inputDestino.value = '';
 
@@ -182,17 +181,10 @@ function emblema() {
                 inputDestino.value = comando + " " + nick_user + " " + emblemas[i];
                 inputDestino.dispatchEvent(event);
                 inputDestino.value = '';
-
-                console.log("1", i)
-                console.log("2", emblemas.length)
                 if (i >= emblemas.length - 1) {
-                    setTimeout(() => {
-                        inputDestino.value = "@green@Um total de " + (count - 1) + " emblemas foram entregues a " + nick_user + "!";
-                        inputDestino.dispatchEvent(event);
-                        inputDestino.value = '';
-                    }, 1000);
+                    console.log("FINALIZADO! Um total de " + (count - 1) + " emblemas foram entregues a " + nick_user + "!")
                 }
-            }, i * 1000);
+            }, i * 1500);
         }
     }
 }
