@@ -154,6 +154,22 @@ emblemas = [
     "HLV23RAD77",
     "HLV23RAD81",
     "HLV23RAD94",
+    "RADIOLV19",
+    "RADIOLV2",
+    "RADIOLV20",
+    "RADIOLV21",
+    "RADIOLV22",
+    "RADIOLV23",
+    "RADIOLV24",
+    "RADIOLV25",
+    "RADIOLV26",
+    "RADIOLV27",
+    "RADIOLV28",
+    "RADIOLV29",
+    "RADIOLV30",
+    "RADIOLV32",
+    "RADIOLV33",
+    "RADIOLV34",
 ]
 
 comando = ":givebadge"
