@@ -22,7 +22,6 @@ emblemas = [
     "HLV24RAD47",
     "HLV24RAD46",
     "HLV24RAD45",
-    "HLV24RAD44",
     "HLV24RAD43",
     "HLV24RAD42",
     "HLV24RAD41",
